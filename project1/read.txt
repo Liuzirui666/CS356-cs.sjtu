@@ -1,0 +1,23 @@
+     
+        (1) 使用新的核打开android
+
+emulator -avd 519021910343 -kernel /home/lzr/os/ndk/android-ndk-linux/android-kernel/kernel/goldfish/arch/arm/boot/zImage -show-kernel         新的
+        (2) 查看android是否打开：adb devices
+        (3) 将文件push到虚拟机上：adb push ~/os/project1/Problem1/pstree.ko /data/misc   在主命令行里
+        (4) 安装module：insmod /data/misc/pstree.ko  要先 adb shell 在android shell 里使用这个命令
+
+/home/lzr/os/ndk/android-ndk-linux/android-kernel/kernel/goldfish
+
+
+
+
+第二三四问
+
+adb push ~/os/project1/Problem2/libs/armeabi/ptreeARM /data/misc
+
+adb push ~/os/project1/Problem3/libs/armeabi/pacARM /data/misc
+
+adb push ~/os/project1/Problem4/libs/armeabi/BBC /data/misc
+
+
+

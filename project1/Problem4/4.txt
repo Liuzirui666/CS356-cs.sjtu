@@ -1,0 +1,134 @@
+root@generic:/data/misc # ./BBC
+Error! Not correct parameters!255|root@generic:/data/misc # ./BBC 1 2 3 0
+The number of cook,cashier,customer,rack can not be satiefied!255|root@generic:/data/misc # BBC 4 6 30 5
+/system/bin/sh: BBC: not found
+127|root@generic:/data/misc # ./BBC 4 6 30 5
+Cooks:[4], Cashiers:[6], Customers:[30]
+Begin run.
+Customer:[14] comes.
+Cashier:[6] accepts an order.
+Customer:[1] comes.
+Cashier:[5] accepts an order.
+Customer:[3] comes.
+Cashier:[4] accepts an order.
+Cook:[4] makes a burger.
+Cook:[3] makes a burger.
+Cook:[2] makes a burger.
+Cook:[1] makes a burger.
+Customer:[6] comes.
+Cashier:[3] accepts an order.
+Customer:[21] comes.
+Cashier:[2] accepts an order.
+Customer:[30] comes.
+Cashier:[1] accepts an order.
+Customer:[2] comes.
+Cook:[4] makes a burger.
+Cashier:[6] takes a burger to a customer.
+Cashier:[5] takes a burger to a customer.
+Cashier:[4] takes a burger to a customer.
+Customer:[4] comes.
+Customer:[5] comes.
+Customer:[13] comes.
+Cashier:[3] takes a burger to a customer.
+Cashier:[3] accepts an order.
+Cashier:[6] accepts an order.
+Cashier:[5] accepts an order.
+Cashier:[4] accepts an order.
+Cashier:[2] takes a burger to a customer.
+Cook:[3] makes a burger.
+Cook:[2] makes a burger.
+Cook:[1] makes a burger.
+Customer:[28] comes.
+Cashier:[2] accepts an order.
+Cook:[4] makes a burger.
+Cook:[3] makes a burger.
+Customer:[10] comes.
+Cashier:[1] takes a burger to a customer.
+Cashier:[3] takes a burger to a customer.
+Cashier:[6] takes a burger to a customer.
+Customer:[15] comes.
+Cashier:[1] accepts an order.
+Cashier:[3] accepts an order.
+Customer:[26] comes.
+Cashier:[6] accepts an order.
+Cashier:[5] takes a burger to a customer.
+Customer:[7] comes.
+Customer:[8] comes.
+Customer:[11] comes.
+Cashier:[5] accepts an order.
+Cashier:[4] takes a burger to a customer.
+Customer:[27] comes.
+Cook:[2] makes a burger.
+Cashier:[4] accepts an order.
+Cook:[1] makes a burger.
+Cook:[4] makes a burger.
+Cook:[3] makes a burger.
+Customer:[17] comes.
+Cook:[2] makes a burger.
+Cashier:[4] takes a burger to a customer.
+Cashier:[2] takes a burger to a customer.
+Cashier:[1] takes a burger to a customer.
+Cashier:[4] accepts an order.
+Cashier:[2] accepts an order.
+Cashier:[1] accepts an order.
+Cashier:[3] takes a burger to a customer.
+Customer:[9] comes.
+Customer:[12] comes.
+Cashier:[3] accepts an order.
+Cashier:[6] takes a burger to a customer.
+Cashier:[6] accepts an order.
+Cook:[1] makes a burger.
+Cook:[4] makes a burger.
+Cook:[3] makes a burger.
+Cook:[2] makes a burger.
+Customer:[16] comes.
+Customer:[18] comes.
+Customer:[20] comes.
+Cook:[1] makes a burger.
+Cashier:[5] takes a burger to a customer.
+Cashier:[4] takes a burger to a customer.
+Cashier:[2] takes a burger to a customer.
+Cashier:[5] accepts an order.
+Cashier:[4] accepts an order.
+Cashier:[2] accepts an order.
+Cashier:[1] takes a burger to a customer.
+Cashier:[3] takes a burger to a customer.
+Cook:[4] makes a burger.
+Cook:[3] makes a burger.
+Cook:[2] makes a burger.
+Cook:[1] makes a burger.
+Cook:[4] makes a burger.
+Cashier:[6] takes a burger to a customer.
+Cashier:[5] takes a burger to a customer.
+Cashier:[4] takes a burger to a customer.
+Cashier:[2] takes a burger to a customer.
+Cook:[3] makes a burger.
+Cook:[2] makes a burger.
+Cook:[1] makes a burger.
+Cook:[4] makes a burger.
+Customer:[29] comes.
+Cashier:[1] accepts an order.
+Customer:[24] comes.
+Cashier:[3] accepts an order.
+Cashier:[1] takes a burger to a customer.
+Customer:[25] comes.
+Cashier:[6] accepts an order.
+Cashier:[3] takes a burger to a customer.
+Cook:[3] makes a burger.
+Customer:[23] comes.
+Cashier:[5] accepts an order.
+Cashier:[6] takes a burger to a customer.
+Cook:[3] makes a burger.
+Customer:[19] comes.
+Cashier:[5] takes a burger to a customer.
+Cashier:[5] accepts an order.
+Cook:[2] makes a burger.
+Cashier:[5] takes a burger to a customer.
+Cook:[1] makes a burger.
+Customer:[22] comes.
+Cashier:[4] accepts an order.
+Cook:[4] makes a burger.
+Cashier:[4] takes a burger to a customer.
+End run.
+root@generic:/data/misc # 
+

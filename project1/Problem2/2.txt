@@ -1,0 +1,80 @@
+root@generic:/data/misc # lsmod
+Module                  Size  Used by
+pstree                  1518  0 
+root@generic:/data/misc # ./ptreeARM
+There are 73 processes.
+swapper,0,0,0,1,0,0
+	init,1,1,0,45,2,0
+		ueventd,45,1,1,0,62,0
+		logd,62,1,1,0,63,1036
+		vold,63,1,1,0,67,0
+		healthd,67,1,1,0,68,0
+		lmkd,68,1,1,0,69,0
+		servicemanager,69,1,1,0,70,1000
+		surfaceflinger,70,1,1,0,72,1000
+		qemud,72,1,1,0,75,0
+		sh,75,1,1,0,76,2000
+		adbd,76,1,1,1082,77,0
+			sh,1082,1,76,1232,0,0
+				ptreeARM,1232,0,1082,0,0,0
+		netd,77,1,1,0,82,0
+		debuggerd,82,1,1,0,83,0
+		rild,83,1,1,0,84,1001
+		drmserver,84,1,1,0,85,1019
+		mediaserver,85,1,1,0,86,1013
+		installd,86,1,1,0,87,0
+		keystore,87,1,1,0,88,1017
+		main,88,1,1,240,89,0
+			system_server,240,1,88,0,721,1000
+			m.android.phone,721,1,88,0,737,1001
+			droid.launcher3,737,1,88,0,761,10007
+			putmethod.latin,761,1,88,0,782,10032
+			d.process.acore,782,1,88,0,828,10002
+			d.process.media,828,1,88,0,856,10005
+			m.android.music,856,1,88,0,888,10035
+			droid.deskclock,888,1,88,0,905,10023
+			ndroid.systemui,905,1,88,0,938,10013
+			externalstorage,938,1,88,0,989,10006
+			id.printspooler,989,1,88,0,1009,10040
+			.quicksearchbox,1009,1,88,0,1025,10042
+			ndroid.settings,1025,1,88,0,1040,1000
+			ndroid.keychain,1040,1,88,0,1089,1000
+			.android.dialer,1089,1,88,0,1103,10004
+			viders.calendar,1103,1,88,0,1122,10001
+			gedprovisioning,1122,1,88,0,1140,10008
+			ndroid.calendar,1140,1,88,0,1164,10019
+			m.android.email,1164,1,88,0,1179,10027
+			ndroid.exchange,1179,1,88,0,0,10029
+		gatekeeperd,89,1,1,0,92,1000
+		perfprofd,92,1,1,0,93,0
+		fingerprintd,93,1,1,0,0,1000
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,6,0
+		khelper,6,1,2,0,7,0
+		sync_supers,7,1,2,0,8,0
+		bdi-default,8,1,2,0,9,0
+		kblockd,9,1,2,0,10,0
+		rpciod,10,1,2,0,11,0
+		kworker/0:1,11,1,2,0,12,0
+		kswapd0,12,1,2,0,13,0
+		fsnotify_mark,13,1,2,0,14,0
+		crypto,14,1,2,0,25,0
+		kworker/u:1,25,1,2,0,30,0
+		mtdblock0,30,1,2,0,35,0
+		mtdblock1,35,1,2,0,40,0
+		mtdblock2,40,1,2,0,41,0
+		binder,41,1,2,0,42,0
+		deferwq,42,1,2,0,43,0
+		kworker/u:2,43,1,2,0,44,0
+		mmcqd/0,44,1,2,0,47,0
+		jbd2/mtdblock0-,47,1,2,0,48,0
+		ext4-dio-unwrit,48,1,2,0,53,0
+		kworker/0:2,53,1,2,0,54,0
+		jbd2/mtdblock1-,54,1,2,0,55,0
+		ext4-dio-unwrit,55,1,2,0,60,0
+		jbd2/mtdblock2-,60,1,2,0,61,0
+		ext4-dio-unwrit,61,1,2,0,81,0
+		kauditd,81,1,2,0,1228,0
+		flush-31:1,1228,1,2,0,0,0
+root@generic:/data/misc # 
+
